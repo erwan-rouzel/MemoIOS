@@ -10,6 +10,9 @@
 
 @implementation DateUtils
 
+// This methods avoid duplicating code as we use this in both :
+// - MemoListTableViewController
+// - MemoDetailsViewController
 + (NSString*) dateUserFriendly:(NSDate*) date{
     NSDateFormatter *dateFormat = [[NSDateFormatter alloc] init];
     

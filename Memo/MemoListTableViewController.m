@@ -16,6 +16,7 @@
 @implementation MemoListTableViewController
 
 - (void) prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    // We pass informations to the details view controller
     NSIndexPath *indexPath = [self.tableView indexPathForCell:sender];
     MemoDetailsViewController *viewController = [segue destinationViewController];
     viewController.memo = [self.memos objectAtIndex:indexPath.row];
