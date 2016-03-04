@@ -1,0 +1,336 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A0CF03D1C897A8900055616 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A0CF03C1C897A8900055616 /* main.m */; };
+		1A0CF0401C897A8900055616 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A0CF03F1C897A8900055616 /* AppDelegate.m */; };
+		1A0CF0431C897A8900055616 /* MemoListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A0CF0421C897A8900055616 /* MemoListTableViewController.m */; };
+		1A0CF0461C897A8900055616 /* MemoCreateTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A0CF0451C897A8900055616 /* MemoCreateTableViewController.m */; };
+		1A0CF0491C897A8900055616 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A0CF0471C897A8900055616 /* Main.storyboard */; };
+		1A0CF04B1C897A8900055616 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A0CF04A1C897A8900055616 /* Assets.xcassets */; };
+		1A0CF04E1C897A8900055616 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A0CF04C1C897A8900055616 /* LaunchScreen.storyboard */; };
+		1A0CF0571C897B2300055616 /* MemoServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A0CF0561C897B2300055616 /* MemoServer.m */; };
+		1A0CF05A1C89871900055616 /* MemoDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A0CF0591C89871900055616 /* MemoDetailsViewController.m */; };
+		1A0CF05D1C8998E400055616 /* CommonTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A0CF05C1C8998E400055616 /* CommonTableViewController.m */; };
+		1A8E9FAD1C89A7FA00155164 /* DateUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A8E9FAC1C89A7FA00155164 /* DateUtils.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1A0CF0381C897A8900055616 /* Memo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Memo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A0CF03C1C897A8900055616 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1A0CF03E1C897A8900055616 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1A0CF03F1C897A8900055616 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1A0CF0411C897A8900055616 /* MemoListTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MemoListTableViewController.h; sourceTree = "<group>"; };
+		1A0CF0421C897A8900055616 /* MemoListTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MemoListTableViewController.m; sourceTree = "<group>"; };
+		1A0CF0441C897A8900055616 /* MemoCreateTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MemoCreateTableViewController.h; sourceTree = "<group>"; };
+		1A0CF0451C897A8900055616 /* MemoCreateTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MemoCreateTableViewController.m; sourceTree = "<group>"; };
+		1A0CF0481C897A8900055616 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1A0CF04A1C897A8900055616 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1A0CF04D1C897A8900055616 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1A0CF04F1C897A8900055616 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A0CF0551C897B2300055616 /* MemoServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MemoServer.h; sourceTree = "<group>"; };
+		1A0CF0561C897B2300055616 /* MemoServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MemoServer.m; sourceTree = "<group>"; };
+		1A0CF0581C89871900055616 /* MemoDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MemoDetailsViewController.h; sourceTree = "<group>"; };
+		1A0CF0591C89871900055616 /* MemoDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MemoDetailsViewController.m; sourceTree = "<group>"; };
+		1A0CF05B1C8998E400055616 /* CommonTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonTableViewController.h; sourceTree = "<group>"; };
+		1A0CF05C1C8998E400055616 /* CommonTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonTableViewController.m; sourceTree = "<group>"; };
+		1A8E9FAB1C89A7FA00155164 /* DateUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DateUtils.h; sourceTree = "<group>"; };
+		1A8E9FAC1C89A7FA00155164 /* DateUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DateUtils.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1A0CF0351C897A8900055616 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A0CF02F1C897A8900055616 = {
+			isa = PBXGroup;
+			children = (
+				1A0CF03A1C897A8900055616 /* Memo */,
+				1A0CF0391C897A8900055616 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1A0CF0391C897A8900055616 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1A0CF0381C897A8900055616 /* Memo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1A0CF03A1C897A8900055616 /* Memo */ = {
+			isa = PBXGroup;
+			children = (
+				1A0CF0551C897B2300055616 /* MemoServer.h */,
+				1A0CF0561C897B2300055616 /* MemoServer.m */,
+				1A0CF03E1C897A8900055616 /* AppDelegate.h */,
+				1A0CF03F1C897A8900055616 /* AppDelegate.m */,
+				1A0CF0411C897A8900055616 /* MemoListTableViewController.h */,
+				1A0CF0421C897A8900055616 /* MemoListTableViewController.m */,
+				1A0CF0441C897A8900055616 /* MemoCreateTableViewController.h */,
+				1A0CF0451C897A8900055616 /* MemoCreateTableViewController.m */,
+				1A0CF0581C89871900055616 /* MemoDetailsViewController.h */,
+				1A0CF0591C89871900055616 /* MemoDetailsViewController.m */,
+				1A0CF0471C897A8900055616 /* Main.storyboard */,
+				1A0CF04A1C897A8900055616 /* Assets.xcassets */,
+				1A0CF04C1C897A8900055616 /* LaunchScreen.storyboard */,
+				1A0CF04F1C897A8900055616 /* Info.plist */,
+				1A0CF03B1C897A8900055616 /* Supporting Files */,
+				1A0CF05B1C8998E400055616 /* CommonTableViewController.h */,
+				1A0CF05C1C8998E400055616 /* CommonTableViewController.m */,
+				1A8E9FAB1C89A7FA00155164 /* DateUtils.h */,
+				1A8E9FAC1C89A7FA00155164 /* DateUtils.m */,
+			);
+			path = Memo;
+			sourceTree = "<group>";
+		};
+		1A0CF03B1C897A8900055616 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1A0CF03C1C897A8900055616 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1A0CF0371C897A8900055616 /* Memo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A0CF0521C897A8900055616 /* Build configuration list for PBXNativeTarget "Memo" */;
+			buildPhases = (
+				1A0CF0341C897A8900055616 /* Sources */,
+				1A0CF0351C897A8900055616 /* Frameworks */,
+				1A0CF0361C897A8900055616 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Memo;
+			productName = Memo;
+			productReference = 1A0CF0381C897A8900055616 /* Memo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1A0CF0301C897A8900055616 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Erwan Rouzel";
+				TargetAttributes = {
+					1A0CF0371C897A8900055616 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 1A0CF0331C897A8900055616 /* Build configuration list for PBXProject "Memo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1A0CF02F1C897A8900055616;
+			productRefGroup = 1A0CF0391C897A8900055616 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1A0CF0371C897A8900055616 /* Memo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1A0CF0361C897A8900055616 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A0CF04E1C897A8900055616 /* LaunchScreen.storyboard in Resources */,
+				1A0CF04B1C897A8900055616 /* Assets.xcassets in Resources */,
+				1A0CF0491C897A8900055616 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A0CF0341C897A8900055616 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A0CF0461C897A8900055616 /* MemoCreateTableViewController.m in Sources */,
+				1A0CF05D1C8998E400055616 /* CommonTableViewController.m in Sources */,
+				1A0CF05A1C89871900055616 /* MemoDetailsViewController.m in Sources */,
+				1A0CF0401C897A8900055616 /* AppDelegate.m in Sources */,
+				1A0CF0571C897B2300055616 /* MemoServer.m in Sources */,
+				1A8E9FAD1C89A7FA00155164 /* DateUtils.m in Sources */,
+				1A0CF0431C897A8900055616 /* MemoListTableViewController.m in Sources */,
+				1A0CF03D1C897A8900055616 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1A0CF0471C897A8900055616 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A0CF0481C897A8900055616 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1A0CF04C1C897A8900055616 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A0CF04D1C897A8900055616 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1A0CF0501C897A8900055616 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1A0CF0511C897A8900055616 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1A0CF0531C897A8900055616 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Memo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fr.ecp.sio.Memo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1A0CF0541C897A8900055616 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Memo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fr.ecp.sio.Memo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1A0CF0331C897A8900055616 /* Build configuration list for PBXProject "Memo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A0CF0501C897A8900055616 /* Debug */,
+				1A0CF0511C897A8900055616 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A0CF0521C897A8900055616 /* Build configuration list for PBXNativeTarget "Memo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A0CF0531C897A8900055616 /* Debug */,
+				1A0CF0541C897A8900055616 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1A0CF0301C897A8900055616 /* Project object */;
+}
